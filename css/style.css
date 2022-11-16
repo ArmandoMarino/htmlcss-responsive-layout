@@ -62,22 +62,21 @@ header{
 }
 
 /* JUMBOTRON */
+.jambo .container{
+    background-color: #ffffff;
+}
 
-
-
-.row{
+.jambo .row{
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 
-.col{
+.jambo .col{
     flex-basis: calc(100% / 3);
     padding: 20px;
     border: red 2px solid;
-
-
 }
 
 .col-jambo{
@@ -87,7 +86,53 @@ header{
 }
 
 
-.card{
+.jambo .card{
+    min-height: 250px;
+    border: black 2px solid;
+}
+
+/* PLANNING */
+.planning{
+    background-color: #9792e4;
+}
+
+.planning .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.planning .col{
+    flex-basis: calc(100% / 2);
+    padding: 20px;
+    border: red 2px solid;
+}
+
+.planning .card{
+    min-height: 250px;
+    border: black 2px solid;
+}
+
+/* TESTIMONIALS */
+
+.testimonials{
+    background-color: #9792e4;
+}
+
+.testimonials .row{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.testimonials .col{
+    padding: 50px;
+    border: red 2px solid;
+}
+
+.testimonials .card{
     min-height: 250px;
     border: black 2px solid;
 }
