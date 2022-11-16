@@ -65,10 +65,16 @@ a{
 
 .store{
     background-color: #0084fd;
-    padding: 10px 15px;
+    padding: 10px 30px;
     font-size: 14px;
 }
 
+.more{
+    background-color: #9792e4;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 /* ? MAIN */
 
@@ -257,30 +263,50 @@ header{
 }
 
 
-/* WITH-US */
+/* ?WITH-US */
+.with-us{
+    background-color: #9792e4;
+
+}
+
+
 .with-us .container{
     background-color: #ffffff;
+    border: #000 solid 1px;
+    background-color: #9792e4;
 }
+
+.with-us-intro{
+    text-align: center;
+}
+
+
 
 .with-us .row{
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
-    margin-bottom: 100px;
-}
-
-.with-us .col{
-    flex-basis: calc(100% / 3);
-    padding: 20px;
-    border: red 2px solid;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    
 }
 
 .with-us .card{
+    width: 25%;
     min-height: 250px;
     border: black 2px solid;
+    margin: 20px;
+    background-color: #ffffff;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 20px;
 }
 
-/* ABOUT-US */
+.with-us .card >*{
+    margin-top: 20px;
+}
+
+/* ? ABOUT-US */
 .about-us{
     background-color: #9792e4;
 }
