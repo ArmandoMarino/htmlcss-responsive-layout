@@ -76,6 +76,13 @@ a{
     font-weight: 600;
 }
 
+.linke{
+    background-color: #9792e4;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
 /* ? MAIN */
 
 /* HEADER */
@@ -308,7 +315,7 @@ header{
 
 /* ? ABOUT-US */
 .about-us{
-    background-color: #9792e4;
+    background-color: #ffff;
 }
 
 .about-us .row{
@@ -328,17 +335,22 @@ header{
     min-height: 250px;
     border: black 2px solid;
     width: 30%;
+    padding: 20px;
 }
 
-.testy-1-img{
+.about-us-img{
     display: inline-block;
     width: 150px;
     height: 150px;
-    background: url(../img/testimonial1.jpg);
+    background: url(../img/about.jpg);
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 50%;
     margin: 20px;
+}
+
+.more a{
+    padding: 0;
 }
 
 
