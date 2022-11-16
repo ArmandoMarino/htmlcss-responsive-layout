@@ -318,15 +318,27 @@ header{
     margin-bottom: 100px;
 }
 
-.about-us .col{
-    flex-basis: calc(100% / 2);
-    padding: 20px;
-    border: red 2px solid;
+.about-us .big-card{
+    min-height: 500px;
+    border: black 2px solid;
+    width: 70%;
 }
 
-.about-us .card{
+.about-us .small-card{
     min-height: 250px;
     border: black 2px solid;
+    width: 30%;
+}
+
+.testy-1-img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: url(../img/testimonial1.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 20px;
 }
 
 
