@@ -136,3 +136,71 @@ header{
     min-height: 250px;
     border: black 2px solid;
 }
+
+
+/* WITH-US */
+.with-us .container{
+    background-color: #ffffff;
+}
+
+.with-us .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.with-us .col{
+    flex-basis: calc(100% / 3);
+    padding: 20px;
+    border: red 2px solid;
+}
+
+.with-us .card{
+    min-height: 250px;
+    border: black 2px solid;
+}
+
+/* ABOUT-US */
+.about-us{
+    background-color: #9792e4;
+}
+
+.about-us .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.about-us .col{
+    flex-basis: calc(100% / 2);
+    padding: 20px;
+    border: red 2px solid;
+}
+
+.about-us .card{
+    min-height: 250px;
+    border: black 2px solid;
+}
+
+
+/* GET-STARTED */
+
+.get-started{
+    background-color: #9792e4;
+}
+
+.get-started .row{
+    
+}
+
+.get-started .col{
+    padding: 50px;
+    border: red 2px solid;
+}
+
+.get-started .card{
+    min-height: 250px;
+    border: black 2px solid;
+}
