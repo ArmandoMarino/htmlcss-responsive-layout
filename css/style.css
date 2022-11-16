@@ -89,7 +89,7 @@ header{
     margin: 0 auto;
 }
 
-/* JUMBOTRON */
+/* ? JUMBOTRON */
 #iphone{
     transform: scale(0.7);
     position: absolute;
@@ -136,57 +136,124 @@ header{
     line-height: 20px;
 }
 
-/* PLANNING */
+/*? PLANNING */
 .planning{
     background-color: #9792e4;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .planning .row{
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin: 50px;
 }
 
 .planning .card{
     min-height: 400px;
     width: 50%;
     border: black 2px solid;
-    margin: 10px;
+    
     padding: 20px;
     border-radius: 20px;
     position: relative;
+    align-items: flex-end;
+    
 }
+
+.planning .small-card{
+    border: black 2px solid;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
 /* IMAGE PLANNING */
 #planning1{
     padding-bottom: 50px;
 }
 
 #planning2{
-    padding-top: 50px;
+    transform: scale(0.8);
 }
 
-/* TESTIMONIALS */
+/*? TESTIMONIALS */
 
 .testimonials{
-    background-color: #9792e4;
 }
 
+.testimonials-intro > * {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
 .testimonials .row{
-    display: flex;
-    flex-direction: column;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 
-.testimonials .col{
-    padding: 50px;
-    border: red 2px solid;
-}
-
 .testimonials .card{
     border: black 2px solid;
+    border-radius: 20px;
+    align-items: center;
+    /*! min-height: 200px; */
+    background-color: #9792e4;
+
+}
+
+.testimonials .span{
+    vertical-align: middle;
+    
+}
+
+
+.testy-1-img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: url(../img/testimonial1.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.testy-2-img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: url(../img/testimonial2.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.testy-3-img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: url(../img/testimonial3.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 20px;
+}
+.testy-1-img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: url(../img/testimonial1.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 20px;
+}
+.testimonials-txt{
+    max-width: 70%;
 }
 
 
