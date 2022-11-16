@@ -16,6 +16,11 @@ main{
     margin: 0 auto;
 }
 
+.container-small{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 img{
     max-width: 100%;
     display: block;
@@ -134,24 +139,32 @@ header{
 /* PLANNING */
 .planning{
     background-color: #9792e4;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .planning .row{
     display: flex;
-    flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 
-.planning .col{
-    flex-basis: calc(100% / 2);
+.planning .card{
+    min-height: 400px;
+    width: 50%;
+    border: black 2px solid;
+    margin: 10px;
     padding: 20px;
-    border: red 2px solid;
+    border-radius: 20px;
+    position: relative;
+}
+/* IMAGE PLANNING */
+#planning1{
+    padding-bottom: 50px;
 }
 
-.planning .card{
-    min-height: 250px;
-    border: black 2px solid;
+#planning2{
+    padding-top: 50px;
 }
 
 /* TESTIMONIALS */
@@ -173,7 +186,6 @@ header{
 }
 
 .testimonials .card{
-    min-height: 250px;
     border: black 2px solid;
 }
 
