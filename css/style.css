@@ -27,6 +27,7 @@ ul{
 
 li{
     margin-left: 20px;
+    font-size: 12px;
 }
 
 a{
@@ -44,6 +45,26 @@ a{
     display: flex;
 }
 
+
+/* BUTTONS */
+.btn{
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.nav{
+    background-color: #ffffff;
+    color: #000;
+}
+
+.store{
+    background-color: #0084fd;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+
 /* ? MAIN */
 
 /* HEADER */
@@ -52,6 +73,7 @@ header{
     background-color: #0084fd;
     padding: 10px;
     position: sticky;
+    top: 0;
 }
 
 .header-container{
@@ -62,6 +84,10 @@ header{
 }
 
 /* JUMBOTRON */
+#iphone{
+    transfor
+}
+
 .jambo .container{
     background-color: #ffffff;
 }
@@ -87,8 +113,31 @@ header{
 
 
 .jambo .card{
-    min-height: 250px;
+    min-height: 200px;
     border: black 2px solid;
+    display: flex;
+
+    
+}
+
+.jambo .big-card{
+    min-height: 200px;
+    border: black 2px solid;
+
+}
+
+.jambo .small-card{
+    min-height: 200px;
+    border: black 2px solid;
+    display: inline-block;
+
+}
+
+.jambo p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 20px;
 }
 
 /* PLANNING */
@@ -203,4 +252,12 @@ header{
 .get-started .card{
     min-height: 250px;
     border: black 2px solid;
+}
+
+
+
+/* ! MEDIA QUERY */
+
+@media screen and (max-width: 768px){
+
 }
