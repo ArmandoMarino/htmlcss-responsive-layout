@@ -511,7 +511,7 @@ header{
     padding: 50px;
 }
 /* ! MEDIA QUERY *********************/
-
+    /**************** DESKTOP & TABLET *****************/
 @media screen and (max-width: 768px){
     /* CONTAINER */
     .container{
@@ -557,6 +557,83 @@ header{
         flex-basis: calc(100% / 2 - 20px);
         min-height: 300px;
     }
+}
+    /**************** MOBILE *****************/
+@media screen and (max-width: 576px){
+    .container{
+        max-width: 500px;
+    }
+
+    /*? JAMBOTRON */
+
+    .jambo .row{
+        gap: 20px;
+    }
+    .jambo .card{
+        flex-basis: 100%;
+        vertical-align: middle;
+        margin: 0px 50px 0 50px;
+
+    }
 
     
+    .jambo .big-card{
+        flex-direction: column;
+        flex-basis: 100%;
+        margin: 0px 50px 0 50px;
+    }
+
+    .jambo .small-card{
+        width: 100%;
+    }
+
+    #iphone{
+        position: relative;
+        right: 0;
+        top: 42px;
+        right: -100px;
+        top: 22px;
+    }
+    
+    /*? TESTIMONIALS */
+
+    .testimonials-intro > *{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .testimonials .row{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .testimonials .card{
+        flex-direction: column;
+        width: 70%;
+        padding: 15px;
+    }
+
+    .with-us .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .with-us .card{
+        width: 60%;
+    }
+
+    /*? ABOUT US */
+    .about-us .row{
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .about-us .big-card{
+        width: 100%;
+    }
+
+    .about-us .small-card{
+        width: 60%;    
+    }
 }
