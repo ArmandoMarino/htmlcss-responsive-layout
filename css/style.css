@@ -83,6 +83,14 @@ a{
     font-weight: 600;
 }
 
+.get{
+    background-color: #ffffff;
+    padding: 10px 20px;
+    color: #9792e4;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
 /* ? MAIN */
 
 /* HEADER */
@@ -341,9 +349,9 @@ header{
 
 
 .with-us .container{
-    background-color: #ffffff;
-    border: #000 solid 1px;
     background-color: #9792e4;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .with-us-intro{
@@ -396,6 +404,34 @@ header{
     background-color: #ffff;
 }
 
+.about-us h2{
+    color: #9792e4;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.about-us h3{
+    color: #9792e4;
+    margin-bottom: 20px;
+}
+
+.about-us p{
+    margin-bottom: 20px;
+
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.about-us i{
+    color: #9792e4;
+    margin-bottom: 20px;
+    font-size: 50px;
+    position: relative;
+    left: 80%;
+}
+
+
+
 .about-us .row{
     display: flex;
     flex-wrap: wrap;
@@ -432,29 +468,52 @@ header{
 }
 
 
-/* GET-STARTED */
+/*? GET-STARTED */
 
 .get-started{
     background-color: #9792e4;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.get-started .row{
-    
+.get-started >*{
+    margin-top: 30px;
 }
 
-.get-started .col{
+.row-up span{
+    color: #ffffff;
+}
+
+.row-up h3{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.row-up h2{
+    color: goldenrod;
+    font-size: 50px;
+}
+
+.row-up p{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.row-up .bottone{
+    margin: 20px;
+}
+
+
+/*? LAST TITLES */
+.last-titles{
+    color: #ffffff;
+    font-size: 10px;
+    background-color: #000;
+    text-align: center;
     padding: 50px;
-    border: red 2px solid;
 }
-
-.get-started .card{
-    min-height: 250px;
-    border: black 2px solid;
-}
-
-
-
-/* ! MEDIA QUERY */
+/* ! MEDIA QUERY *********************/
 
 @media screen and (max-width: 768px){
 
