@@ -510,6 +510,7 @@ header{
     text-align: center;
     padding: 50px;
 }
+
 /* ! MEDIA QUERY *********************/
     /**************** DESKTOP & TABLET *****************/
 @media screen and (max-width: 768px){
@@ -594,7 +595,6 @@ header{
         right: -100px;
         top: 22px;
     }
-    
     /*? TESTIMONIALS */
 
     .testimonials-intro > *{
