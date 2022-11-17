@@ -191,7 +191,7 @@ header{
 .planning .card-left{
     min-height: 400px;
     width: 50%;
-    border: black 2px solid;
+    /* border: black 2px solid; */
     border-radius: 20px;
 
     font-size: 12px;
@@ -207,7 +207,7 @@ header{
 .planning .card-right{
     min-height: 400px;
     width: 50%;
-    border: black 2px solid;
+    /* border: black 2px solid; */
     display: flex;
     padding-top: 100px;
     border-radius: 20px;
@@ -218,7 +218,7 @@ header{
 }
 
 .planning .small-card{
-    border: black 2px solid;
+    /* border: black 2px solid; */
     margin: 10px auto;
     width: 80%;
     border-radius: 20px;
@@ -287,12 +287,9 @@ header{
     margin-top: 10px;
 }
 
-
 .testimonials .span{
     vertical-align: middle;
-    
 }
-
 
 .testy-1-img{
     display: inline-block;
