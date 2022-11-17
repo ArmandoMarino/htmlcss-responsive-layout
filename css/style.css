@@ -104,8 +104,7 @@ header{
 
 /* ? JUMBOTRON */
 #iphone{
-    transform: scale(0.7);
-    position: absolute;
+    position: relative;
     right: 0;
     top: 20px;
 }
@@ -117,12 +116,13 @@ header{
 .jambo .row{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 
 .jambo .card{
-    width: 30%;
+    flex-basis: calc(100% / 3 - 20px);
     border: black 2px solid;
     margin: 10px;
     padding: 20px;
@@ -130,7 +130,8 @@ header{
 }
 
 .jambo .big-card{
-    width: 62.5%;
+    display: flex;
+    flex-basis: calc(100% / 3 * 2 - 20px);
     margin: 10px;
     border: black 2px solid;
     border-radius: 20px;
@@ -294,15 +295,15 @@ header{
     flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 50px;
-    justify-content: space-between;
+    justify-content: center;
     
 }
 
 .with-us .card{
-    width: 25%;
-    min-height: 250px;
-    border: black 2px solid;
-    margin: 20px;
+    flex-basis: calc(100% / 3 - 20px);
+    border: transparent 2px solid;
+    border-radius: 20px;
+    margin: 10px;
     background-color: #ffffff;
     font-size: 11px;
     line-height: 15px;
