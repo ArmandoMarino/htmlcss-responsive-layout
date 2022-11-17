@@ -438,13 +438,13 @@ header{
 
 .about-us .big-card{
     min-height: 500px;
-    border: black 2px solid;
+    /* border: black 2px solid; */
     width: 70%;
 }
 
 .about-us .small-card{
     min-height: 250px;
-    border: black 2px solid;
+    /* border: black 2px solid; */
     width: 30%;
     padding: 20px;
 }
@@ -513,5 +513,50 @@ header{
 /* ! MEDIA QUERY *********************/
 
 @media screen and (max-width: 768px){
+    /* CONTAINER */
+    .container{
+        max-width: 700px;
+    }
 
+    /*? JAMBOTRON */
+    
+    .jambo .big-card{
+        flex-direction: column;
+    }
+
+    .jambo .small-card{
+        width: 100%;
+    }
+
+    #iphone{
+        width: 50%;
+    }
+    
+    /*? PLANNING  */
+    .planning .row{
+        flex-direction: column;
+    }
+
+    .planning .card-left{
+        width: 100%;
+    }
+
+    .planning .card-right{
+        width: 100%;
+    }
+
+    .down-arrow{
+        width: 50px;
+        height: 50px;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+    /*? WITH US */
+    .with-us .card{
+        flex-basis: calc(100% / 2 - 20px);
+        min-height: 300px;
+    }
+
+    
 }
