@@ -103,10 +103,20 @@ header{
 }
 
 /* ? JUMBOTRON */
+.title-blue{
+    font-size: 18px;
+    color: #0084fd;
+}
+
+.icon-blue{
+    color: #0084fd;
+    font-size: 50px;
+}
+
 #iphone{
     position: relative;
     right: 0;
-    top: 20px;
+    top: 42px;
 }
 
 .jambo .container{
@@ -123,18 +133,21 @@ header{
 
 .jambo .card{
     flex-basis: calc(100% / 3 - 20px);
-    border: black 2px solid;
+    border: transparent 2px solid;
     margin: 10px;
     padding: 20px;
     border-radius: 20px;
+    text-align: center;
+    background-color: #b5ddff;
 }
 
 .jambo .big-card{
     display: flex;
     flex-basis: calc(100% / 3 * 2 - 20px);
     margin: 10px;
-    border: black 2px solid;
+    border: transparent 2px solid;
     border-radius: 20px;
+    background-color: #b5ddff;
 }
 
 .jambo .small-card{
@@ -151,6 +164,11 @@ header{
 }
 
 /*? PLANNING */
+.title-white{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 .planning{
     background-color: #9792e4;
     padding-top: 100px;
@@ -162,29 +180,61 @@ header{
     margin: 50px;
 }
 
-.planning .card{
+.planning .card-left{
     min-height: 400px;
     width: 50%;
     border: black 2px solid;
-    
-    padding: 20px;
     border-radius: 20px;
+
+    font-size: 12px;
+    padding: 20px;
+    color: #ffffff;
+    line-height: 20px;
+    
     position: relative;
     align-items: flex-end;
     
 }
 
+.planning .card-right{
+    min-height: 400px;
+    width: 50%;
+    border: black 2px solid;
+    display: flex;
+    padding-top: 100px;
+    border-radius: 20px;
+
+    font-size: 12px;
+    line-height: 20px;
+    
+}
+
 .planning .small-card{
     border: black 2px solid;
-    margin: 10px;
-    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
     border-radius: 20px;
     text-align: center;
     background-color: #ffffff;
+    line-height: 20px;
+    padding: 30px;
+}
+
+
+.down-arrow{
+    background-color: #9792e4;
+    min-width: 30px;
+    min-height: 30px;
+    display: inline-block;
+    border: transparent 1px solid;
+    border-radius: 50%;
+    padding-top: 4px;
+    margin-top: 20px;
 }
 
 /* IMAGE PLANNING */
 #planning1{
+    width: 100%;
     padding-bottom: 50px;
 }
 
@@ -193,30 +243,42 @@ header{
 }
 
 /*? TESTIMONIALS */
-
 .testimonials{
 }
 
 .testimonials-intro > * {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    font-size: 15px;
 }
 
-
+.title-purple{
+    color: #9792e4;
+    font-size: 30px;
+}
 
 .testimonials .row{
     margin-top: 50px;
     margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .testimonials .card{
-    border: black 2px solid;
+    display: flex;
+    border: transparent 2px solid;
     border-radius: 20px;
     align-items: center;
-    /*! min-height: 200px; */
     background-color: #9792e4;
-
+    font-size: 15px;
+    color: #ffffff;
 }
+
+.testimonials-txt :last-child{
+    margin-top: 10px;
+}
+
 
 .testimonials .span{
     vertical-align: middle;
@@ -226,8 +288,8 @@ header{
 
 .testy-1-img{
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    min-width: 150px;
+    min-height: 150px;
     background: url(../img/testimonial1.jpg);
     background-position: 50% 50%;
     background-size: cover;
@@ -237,8 +299,8 @@ header{
 
 .testy-2-img{
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    min-width: 150px;
+    min-height: 150px;
     background: url(../img/testimonial2.jpg);
     background-position: 50% 50%;
     background-size: cover;
@@ -248,8 +310,8 @@ header{
 
 .testy-3-img{
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    min-width: 150px;
+    min-height: 150px;
     background: url(../img/testimonial3.jpg);
     background-position: 50% 50%;
     background-size: cover;
@@ -286,6 +348,10 @@ header{
 
 .with-us-intro{
     text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -301,6 +367,7 @@ header{
 
 .with-us .card{
     flex-basis: calc(100% / 3 - 20px);
+    
     border: transparent 2px solid;
     border-radius: 20px;
     margin: 10px;
@@ -311,7 +378,17 @@ header{
 }
 
 .with-us .card >*{
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.card h3{
+    color: #9792e4;
+    font-size: 50px;
+}
+
+.card h5{
+    color: #9792e4;
+    font-size: 15px;
 }
 
 /* ? ABOUT-US */
