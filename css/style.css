@@ -1,89 +1,87 @@
 /* CSS RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* GENERICS */
-main{
+main {
     font-family: sans-serif;
 }
 
 
-.container{
+.container {
     max-width: 800px;
     margin: 0 auto;
 }
 
-.container-small{
+.container-small {
     max-width: 700px;
     margin: 0 auto;
 }
 
-img{
+img {
     max-width: 100%;
     display: block;
 }
 
-ul{
-   list-style-type: none;
+ul {
+    list-style-type: none;
 }
 
-li{
+li {
     margin-left: 20px;
     font-size: 12px;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-.logo{
-
-}
+.logo {}
 
 /* UTILS */
 
-.flex{
+.flex {
     display: flex;
 }
 
 
 /* BUTTONS */
-.btn{
+.btn {
     padding: 5px 10px;
     color: white;
     border-radius: 20px;
 }
 
-.nav{
+.nav {
     background-color: #ffffff;
     color: #000;
 }
 
-.store{
+.store {
     background-color: #0084fd;
     padding: 10px 30px;
     font-size: 14px;
 }
 
-.more{
+.more {
     background-color: #9792e4;
     padding: 10px 30px;
     font-size: 14px;
     font-weight: 600;
 }
 
-.linke{
+.linke {
     background-color: #9792e4;
     padding: 5px 10px;
     font-size: 12px;
     font-weight: 600;
 }
 
-.get{
+.get {
     background-color: #ffffff;
     padding: 10px 20px;
     color: #9792e4;
@@ -95,7 +93,7 @@ a{
 
 /* HEADER */
 
-header{
+header {
     background-color: #0084fd;
     padding: 10px;
     position: sticky;
@@ -103,49 +101,49 @@ header{
     z-index: 1;
 }
 
-.navbar{
+.navbar {
     display: flex;
 }
 
-.navbar ul{
+.navbar ul {
     display: flex;
 }
 
-.header-container{
+.header-container {
     max-width: 800px;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
 }
 
-.hamburger-menu{
+.hamburger-menu {
     color: #ffffff;
     font-size: 20px;
     display: none;
 }
 
 /* ? JUMBOTRON */
-.title-blue{
+.title-blue {
     font-size: 18px;
     color: #0084fd;
 }
 
-.icon-blue{
+.icon-blue {
     color: #0084fd;
     font-size: 50px;
 }
 
-#iphone{
+#iphone {
     position: relative;
     right: 0;
     top: 42px;
 }
 
-.jambo .container{
+.jambo .container {
     background-color: #ffffff;
 }
 
-.jambo .row{
+.jambo .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -153,7 +151,7 @@ header{
     margin-bottom: 100px;
 }
 
-.jambo .card{
+.jambo .card {
     flex-basis: calc(100% / 3 - 20px);
     border: transparent 2px solid;
     margin: 10px;
@@ -163,7 +161,7 @@ header{
     background-color: #b5ddff;
 }
 
-.jambo .big-card{
+.jambo .big-card {
     display: flex;
     flex-basis: calc(100% / 3 * 2 - 20px);
     margin: 10px;
@@ -172,13 +170,13 @@ header{
     background-color: #b5ddff;
 }
 
-.jambo .small-card{
+.jambo .small-card {
     position: relative;
     width: 50%;
     padding: 20px;
 }
 
-.jambo p{
+.jambo p {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 12px;
@@ -186,23 +184,23 @@ header{
 }
 
 /*? PLANNING */
-.title-white{
+.title-white {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.planning{
+.planning {
     background-color: #9792e4;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.planning .row{
+.planning .row {
     display: flex;
     margin: 50px;
 }
 
-.planning .card-left{
+.planning .card-left {
     min-height: 400px;
     width: 50%;
     /* border: black 2px solid; */
@@ -212,13 +210,13 @@ header{
     padding: 20px;
     color: #ffffff;
     line-height: 20px;
-    
+
     position: relative;
     align-items: flex-end;
-    
+
 }
 
-.planning .card-right{
+.planning .card-right {
     min-height: 400px;
     width: 50%;
     /* border: black 2px solid; */
@@ -228,10 +226,10 @@ header{
 
     font-size: 12px;
     line-height: 20px;
-    
+
 }
 
-.planning .small-card{
+.planning .small-card {
     /* border: black 2px solid; */
     margin: 10px auto;
     width: 80%;
@@ -243,7 +241,7 @@ header{
 }
 
 
-.down-arrow{
+.down-arrow {
     background-color: #9792e4;
     min-width: 30px;
     min-height: 30px;
@@ -255,31 +253,30 @@ header{
 }
 
 /* IMAGE PLANNING */
-#planning1{
+#planning1 {
     width: 100%;
     padding-bottom: 50px;
 }
 
-#planning2{
+#planning2 {
     transform: scale(0.8);
 }
 
 /*? TESTIMONIALS */
-.testimonials{
-}
+.testimonials {}
 
-.testimonials-intro > * {
+.testimonials-intro>* {
     text-align: center;
     margin-top: 30px;
     font-size: 15px;
 }
 
-.title-purple{
+.title-purple {
     color: #9792e4;
     font-size: 30px;
 }
 
-.testimonials .row{
+.testimonials .row {
     margin-top: 50px;
     margin-bottom: 100px;
     display: flex;
@@ -287,7 +284,7 @@ header{
     gap: 20px;
 }
 
-.testimonials .card{
+.testimonials .card {
     display: flex;
     border: transparent 2px solid;
     border-radius: 20px;
@@ -297,15 +294,15 @@ header{
     color: #ffffff;
 }
 
-.testimonials-txt :last-child{
+.testimonials-txt :last-child {
     margin-top: 10px;
 }
 
-.testimonials .span{
+.testimonials .span {
     vertical-align: middle;
 }
 
-.testy-1-img{
+.testy-1-img {
     display: inline-block;
     min-width: 150px;
     min-height: 150px;
@@ -316,7 +313,7 @@ header{
     margin: 20px;
 }
 
-.testy-2-img{
+.testy-2-img {
     display: inline-block;
     min-width: 150px;
     min-height: 150px;
@@ -327,7 +324,7 @@ header{
     margin: 20px;
 }
 
-.testy-3-img{
+.testy-3-img {
     display: inline-block;
     min-width: 150px;
     min-height: 150px;
@@ -337,7 +334,8 @@ header{
     border-radius: 50%;
     margin: 20px;
 }
-.testy-1-img{
+
+.testy-1-img {
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -347,25 +345,26 @@ header{
     border-radius: 50%;
     margin: 20px;
 }
-.testimonials-txt{
+
+.testimonials-txt {
     max-width: 70%;
 }
 
 
 /* ?WITH-US */
-.with-us{
+.with-us {
     background-color: #9792e4;
 
 }
 
 
-.with-us .container{
+.with-us .container {
     background-color: #9792e4;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.with-us-intro{
+.with-us-intro {
     text-align: center;
     color: #ffffff;
     font-size: 20px;
@@ -375,18 +374,18 @@ header{
 
 
 
-.with-us .row{
+.with-us .row {
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 50px;
     justify-content: center;
-    
+
 }
 
-.with-us .card{
+.with-us .card {
     flex-basis: calc(100% / 3 - 20px);
-    
+
     border: transparent 2px solid;
     border-radius: 20px;
     margin: 10px;
@@ -396,44 +395,45 @@ header{
     padding: 20px;
 }
 
-.with-us .card >*{
+.with-us .card>* {
     margin-top: 30px;
 }
 
-.card h3{
+.card h3 {
     color: #9792e4;
     font-size: 50px;
 }
 
-.card h5{
+.card h5 {
     color: #9792e4;
     font-size: 15px;
 }
 
 /* ? ABOUT-US */
-.about-us{
+.about-us {
     background-color: #ffff;
+    padding: 1rem;
 }
 
-.about-us h2{
+.about-us h2 {
     color: #9792e4;
     margin-bottom: 20px;
     font-size: 40px;
 }
 
-.about-us h3{
+.about-us h3 {
     color: #9792e4;
     margin-bottom: 20px;
 }
 
-.about-us p{
+.about-us p {
     margin-bottom: 20px;
 
     line-height: 30px;
     font-size: 15px;
 }
 
-.about-us i{
+.about-us i {
     color: #9792e4;
     margin-bottom: 20px;
     font-size: 50px;
@@ -443,27 +443,27 @@ header{
 
 
 
-.about-us .row{
+.about-us .row {
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 
-.about-us .big-card{
+.about-us .big-card {
     min-height: 500px;
     /* border: black 2px solid; */
     width: 70%;
 }
 
-.about-us .small-card{
+.about-us .small-card {
     min-height: 250px;
     /* border: black 2px solid; */
     width: 30%;
     padding: 20px;
 }
 
-.about-us-img{
+.about-us-img {
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -474,50 +474,50 @@ header{
     margin: 20px;
 }
 
-.more a{
+.more a {
     padding: 0;
 }
 
 
 /*? GET-STARTED */
 
-.get-started{
+.get-started {
     background-color: #9792e4;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.get-started >*{
+.get-started>* {
     margin-top: 30px;
 }
 
-.row-up span{
+.row-up span {
     color: #ffffff;
 }
 
-.row-up h3{
+.row-up h3 {
     color: #ffffff;
     font-size: 30px;
 }
 
-.row-up h2{
+.row-up h2 {
     color: goldenrod;
     font-size: 50px;
 }
 
-.row-up p{
+.row-up p {
     color: #ffffff;
     font-size: 15px;
 }
 
-.row-up .bottone{
+.row-up .bottone {
     margin: 20px;
 }
 
 
 /*? LAST TITLES */
-.last-titles{
+.last-titles {
     color: #ffffff;
     font-size: 10px;
     background-color: #000;
@@ -526,51 +526,52 @@ header{
 }
 
 /* ! MEDIA QUERY *********************/
-    /**************** DESKTOP & TABLET *****************/
-@media screen and (max-width: 768px){
+/**************** DESKTOP & TABLET *****************/
+@media screen and (max-width: 768px) {
+
     /* CONTAINER */
-    .container{
+    .container {
         max-width: 700px;
     }
 
-    .navbar{
+    .navbar {
         display: none;
     }
 
-    .hamburger-menu{
+    .hamburger-menu {
         color: #ffffff;
         font-size: 20px;
         display: inline-block;
     }
 
     /*? JAMBOTRON */
-    
-    .jambo .big-card{
+
+    .jambo .big-card {
         flex-direction: column;
     }
 
-    .jambo .small-card{
+    .jambo .small-card {
         width: 100%;
     }
 
-    #iphone{
+    #iphone {
         width: 50%;
     }
-    
+
     /*? PLANNING  */
-    .planning .row{
+    .planning .row {
         flex-direction: column;
     }
 
-    .planning .card-left{
+    .planning .card-left {
         width: 100%;
     }
 
-    .planning .card-right{
+    .planning .card-right {
         width: 100%;
     }
 
-    .down-arrow{
+    .down-arrow {
         width: 50px;
         height: 50px;
         padding-top: 15px;
@@ -578,83 +579,87 @@ header{
     }
 
     /*? WITH US */
-    .with-us .card{
+    .with-us .card {
         flex-basis: calc(100% / 2 - 20px);
         min-height: 300px;
     }
 }
-    /**************** MOBILE *****************/
-@media screen and (max-width: 576px){
-    .container{
+
+/**************** MOBILE *****************/
+@media screen and (max-width: 576px) {
+    .container {
         max-width: 500px;
     }
+
     /*? JAMBOTRON */
-    .jambo .row{
+    .jambo .row {
         gap: 20px;
     }
-    .jambo .card{
+
+    .jambo .card {
         flex-basis: 100%;
         vertical-align: middle;
         margin: 0px 50px 0 50px;
 
     }
 
-    .jambo .big-card{
+    .jambo .big-card {
         flex-direction: column;
         flex-basis: 100%;
         margin: 0px 50px 0 50px;
     }
 
-    .jambo .small-card{
+    .jambo .small-card {
         width: 100%;
     }
 
-    #iphone{
+    #iphone {
         position: relative;
         right: 0;
         top: 42px;
         right: -100px;
         top: 22px;
     }
+
     /*? TESTIMONIALS */
 
-    .testimonials-intro > *{
+    .testimonials-intro>* {
         padding-left: 50px;
         padding-right: 50px;
     }
 
-    .testimonials .row{
+    .testimonials .row {
         flex-direction: column;
         gap: 20px;
         align-items: center;
     }
 
-    .testimonials .card{
+    .testimonials .card {
         flex-direction: column;
         width: 70%;
         padding: 15px;
     }
 
-    .with-us .row{
+    .with-us .row {
         flex-direction: column;
         align-items: center;
     }
 
-    .with-us .card{
+    .with-us .card {
         width: 60%;
     }
 
     /*? ABOUT US */
-    .about-us .row{
+    .about-us .row {
         flex-direction: column;
-        align-items: center;  
+        align-items: center;
     }
 
-    .about-us .big-card{
+    .about-us .big-card {
         width: 100%;
     }
 
-    .about-us .small-card{
-        width: 60%;    
+    .about-us .small-card {
+        width: 60%;
     }
 }
